@@ -1,0 +1,17 @@
+Stock floristeria "Abeja":
+Arbres:	
+	Arbre [alçada = 2.0, preu = 2.0 isVenut = true]
+	Arbre [alçada = 22.0, preu = 22.0 isVenut = false]
+	Arbre [alçada = 33.0, preu = 33.0 isVenut = true]
+	Arbre [alçada = 33.0, preu = 3.0 isVenut = true]
+Flors:	
+	Flor [color = 2, preu = 2.0 isVenut = false]
+	Flor [color = 2, preu = 2.0 isVenut = false]
+	Flor [color = 33, preu = 33.0 isVenut = true]
+Decoracions:	
+	Decoracio [preu = 1.0, tipus = PLASTIC isVenut = false]
+	Decoracio [preu = 2.0, tipus = DESCONEGUT isVenut = true]
+Tickets:	
+	Ticket [[Arbre [alçada = 2.0, preu = 2.0 isVenut = true]]]
+	Ticket [[Decoracio [preu = 2.0, tipus = DESCONEGUT isVenut = true]]]
+	Ticket [[Arbre [alçada = 33.0, preu = 33.0 isVenut = true], Arbre [alçada = 33.0, preu = 3.0 isVenut = true], Flor [color = 33, preu = 33.0 isVenut = true]]]
